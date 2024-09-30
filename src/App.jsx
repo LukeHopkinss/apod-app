@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import Footer from "./components/Footer"
-import Main from "./components/Main"
+import Head from "./components/Head"
 import SideBar from "./components/SideBar"
 
 
@@ -50,7 +50,7 @@ function App() {
   return (
     <>
 
-      {data ? (<Main data={data} />) : (
+      {data ? (<Head data={data} />) : (
         <div className="loadingState">
           <i className="fa-solid fa-spinner"></i>        
         </div>

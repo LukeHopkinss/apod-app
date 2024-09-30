@@ -1,4 +1,4 @@
-export default function Main(props) {
+export default function Head(props) {
 
     const {data} = props
 
