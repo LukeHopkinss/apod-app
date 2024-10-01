@@ -42,6 +42,13 @@
 
 }
 
+.bgVideo{
+  height: 100%;
+  width: 100%;
+  flex: 1;
+  object-fit: cover;
+}
+
 footer{
   position: fixed;
   bottom: 0;
